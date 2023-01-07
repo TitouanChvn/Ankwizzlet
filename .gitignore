@@ -3,6 +3,3 @@
 
 # Ignore Gradle build output directory
 build
-
-# Ignore data JSON 
-src/main/data/*.json
