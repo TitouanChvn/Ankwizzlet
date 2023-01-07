@@ -1,0 +1,25 @@
+{
+  "description": "Changement de description",
+  "flashcards": [
+    {
+      "reponse": "Reponse",
+      "question": "Carte",
+      "nbJoue": "1",
+      "indice": "Indice",
+      "idC": "1",
+      "nbBonnesReponses": "0",
+      "explication": "Explication"
+    },
+    {
+      "reponse": "R2",
+      "question": "Q2",
+      "nbJoue": "1",
+      "indice": "I2",
+      "idC": "2",
+      "nbBonnesReponses": "0",
+      "explication": "E2"
+    }
+  ],
+  "id": "6",
+  "nom": "test"
+}

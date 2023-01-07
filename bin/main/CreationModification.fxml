@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.SeparatorMenuItem?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="340.0" prefWidth="450.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1"> <!--fx:controller="CreationModificationController"> -->
+   <children>
+      <MenuBar>
+         <menus>
+            <Menu mnemonicParsing="false" text="Menu">
+               <items>
+                  <MenuItem mnemonicParsing="false" onAction="#goToHome" text="Accueil" />
+                  <SeparatorMenuItem mnemonicParsing="false" />
+                  <MenuItem mnemonicParsing="false" onAction="#exitApplication" text="Quitter" />
+               </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Edition">
+               <items>
+                  <MenuItem mnemonicParsing="false" onAction="#saveDeck" text="Enregistrer" />
+                  <MenuItem fx:id="supp" mnemonicParsing="false" text="Supprimer" />
+               </items>
+            </Menu>
+        <Menu mnemonicParsing="false" text="A propos">
+          <items>
+            <MenuItem mnemonicParsing="false" onAction="#whoWeAre" text="Qui sommes nous ?" />
+            <MenuItem mnemonicParsing="false" onAction="#howToPlay" text="Comment jouer ?" />
+          </items>
+        </Menu>            
+         </menus>
+      </MenuBar>
+      <AnchorPane prefHeight="323.0" prefWidth="480.0">
+         <children>
+            <Button layoutX="230.0" layoutY="252.0" mnemonicParsing="false" onAction="#validation" style="-fx-background-color: white; -fx-border-color: white;">
+               <graphic>
+                  <ImageView fitHeight="39.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/validate.png" />
+                     </image>
+                  </ImageView>
+               </graphic></Button> <!-- fais des trucs pour valider, renvoie vers la page DeckModification -->
+            <Button layoutX="187.0" layoutY="14.0" mnemonicParsing="false" onAction="#importer" prefHeight="26.0" prefWidth="83.0" style="-fx-background-color: #4000ff;" text="Importer" textFill="WHITE" />
+            <TextField fx:id="NomDeck" layoutX="22.0" layoutY="91.0" prefHeight="25.0" prefWidth="403.0" promptText="Titre" style="-fx-border-color: black;" />
+            <TextArea fx:id="DescriptionDeck" layoutX="22.0" layoutY="168.0" prefHeight="81.0" prefWidth="403.0" promptText="Description&#10;" style="-fx-border-color: black;" />
+            <Label layoutX="201.0" layoutY="69.0" text="Titre" textFill="#4000ff">
+               <font>
+                  <Font name="FreeMono Bold" size="15.0" />
+               </font></Label>
+            <Label layoutX="181.0" layoutY="150.0" text="Description" textFill="#4000ff">
+               <font>
+                  <Font name="FreeMono Bold" size="15.0" />
+               </font></Label>
+            <Button layoutX="176.0" layoutY="255.0" mnemonicParsing="false" onAction="#previousPage" style="-fx-background-color: white; -fx-border-color: white;">
+               <graphic>
+                  <ImageView fitHeight="34.0" fitWidth="36.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/cancel.png" />
+                     </image>
+                  </ImageView>
+               </graphic></Button>
+            <ImageView fitHeight="29.0" fitWidth="45.0" layoutX="152.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/import.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </children>
+</VBox>

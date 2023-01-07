@@ -1,0 +1,21 @@
+Mardi :
+    Conception
+    GdP
+    Utilisation de Gradle
+    --> Application lançable
+
+Mercredi :
+    Double interface : création / test
+    --> Possibilité de voir une carte 
+    --> Interface générale
+
+Jeudi : 
+    Sauvegarde des decks
+    Importation des paquets
+    Création fonctionnelle
+    Paramètres d'apprentissage + stats
+    --> Création et apprentissage
+
+Vendredi :
+    Stats + extensions + joli + vidéo + rapport
+    --> Rendu final

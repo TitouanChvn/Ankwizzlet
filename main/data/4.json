@@ -1,0 +1,151 @@
+{
+    "description": "Questions de culture générale sur de la physique assez classique",
+    "flashcards": [
+        {
+            "reponse": "Lumière",
+            "question": "Quelle est la forme d'énergie la plus rapide connue ?",
+            "nbJoue": "51",
+            "indice": "Elle est liée à un phénomène optique",
+            "idC": "1",
+            "nbBonnesReponses": "50",
+            "explication": "La lumière se déplace à une vitesse de 299 792 458 m/s dans le vide."
+        },
+        {
+            "reponse": "Gravitation",
+            "question": "Quelle force est responsable de l'attraction entre les masses ?",
+            "nbJoue": "54",
+            "indice": "Elle est décrite par la loi de Newton",
+            "idC": "2",
+            "nbBonnesReponses": "48",
+            "explication": "La force de gravitation est décrite par la loi de Newton de la gravitation universelle, qui établit que toutes les masses sont attirées l'une vers l'autre par une force proportionnelle à leurs masses et inversement proportionnelle au carré de leur distance."
+        },
+        {
+            "reponse": "Masse",
+            "question": "Quelle grandeur physique correspond à la quantité de matière d'un corps ?",
+            "nbJoue": "61",
+            "indice": "Elle est liée à la gravité",
+            "idC": "3",
+            "nbBonnesReponses": "38",
+            "explication": "La masse d'un corps est une mesure de la quantité de matière qu'il contient. Elle est liée à la gravitation, car c'est la masse qui détermine la force de gravitation exercée par un corps."
+        },
+        {
+            "reponse": "Electromagnétique",
+            "question": "Quelle forme d'énergie est produite par le mouvement de charges électriques ?",
+            "nbJoue": "41",
+            "indice": "Elle peut être produite par un aimant et un fil de cuivre",
+            "idC": "4",
+            "nbBonnesReponses": "37",
+            "explication": "L'énergie electromagnétique est produite par le mouvement de charges électriques et est liée aux phénomènes électriques et magnétiques. Elle peut être produite de différentes manières, par exemple en faisant passer un courant électrique dans un fil de cuivre à proximité d'un aimant."
+        },
+        {
+            "reponse": "E=mc²",
+            "question": "Quelle est l'équation célèbre de la relativité restreinte d'Albert Einstein ?",
+            "nbJoue": "37",
+            "indice": "Elle lie l'énergie et la masse",
+            "idC": "5",
+            "nbBonnesReponses": "36",
+            "explication": "L'équation E=mc² établit un lien entre l'énergie E et la masse m d'un corps. Selon cette équation, l'énergie d'un corps est égale à sa masse multipliée par le carré de la vitesse de la lumière (c) dans le vide."
+        },
+        {
+            "reponse": "Leptons",
+            "question": "Quelle est la classe de particules élémentaires qui comprend les électrons ?",
+            "nbJoue": "71",
+            "indice": "Elles sont chargées électriquement",
+            "idC": "6",
+            "nbBonnesReponses": "12",
+            "explication": "Les leptons sont une classe de particules élémentaires qui comprennent les électrons, ainsi que d'autres particules chargées électriquement comme les muons et les taus."
+        },
+        {
+            "reponse": "Quarks",
+            "question": "Quelle est la classe de particules élémentaires qui compose les protons et les neutrons ?",
+            "nbJoue": "73",
+            "indice": "Ils sont liés par une force forte",
+            "idC": "7",
+            "nbBonnesReponses": "19",
+            "explication": "Les quarks sont une classe de particules élémentaires qui composent les protons et les neutrons, ainsi que d'autres particules composites comme les mesons. Ils sont liés par une force forte, qui est l'une des quatre forces fondamentales de la nature."
+        },
+        {
+            "reponse": "Réfraction",
+            "question": "Quel phénomène physique se produit lorsqu'un rayon de lumière passe d'un milieu à un autre de réfringence différente ?",
+            "nbJoue": "58",
+            "indice": "Il est lié à l'indice de réfraction",
+            "idC": "8",
+            "nbBonnesReponses": "44",
+            "explication": "Elle est liée à l'indice de réfraction du milieu, qui est une mesure de la vitesse de la lumière dans ce milieu. Lorsqu'un rayon de lumière passe d'un milieu à un autre de réfringence différente, il change de direction et son trajet est dévié. C'est ce phénomène qui se produit lorsque la lumière passe à travers un prisme, par exemple, et qui est à l'origine de l'arc-en-ciel."
+        }
+        {
+            "reponse": "Photons",
+            "question": "Quelle est la particule élémentaire associée à la lumière ?",
+            "nbJoue": "52",
+            "indice": "Elle est chargée électriquement",
+            "idC": "9",
+            "nbBonnesReponses": "38",
+            "explication": "Les photons sont des particules élémentaires chargées électriquement associées à la lumière et aux autres formes d'énergie electromagnétique, comme les rayons X et les rayons gamma. Ils sont considérés comme des bosons, c'est-à-dire des particules qui ont un spin entier."
+        },
+        {
+            "reponse": "Pression",
+            "question": "Quelle grandeur physique mesure la force exercée par unité de surface ?",
+            "nbJoue": "62",
+            "indice": "Elle est liée à l'élasticité",
+            "idC": "10",
+            "nbBonnesReponses": "56",
+            "explication": "La pression est une grandeur physique qui mesure la force exercée par unité de surface. Elle est définie comme étant la force appliquée sur une surface divisée par l'aire de cette surface. La pression est liée à l'élasticité des corps et intervient dans de nombreux phénomènes physiques, comme la propulsion des aéronefs et la circulation sanguine dans le corps humain."
+        },
+        {
+            "reponse": "Entropie",
+            "question": "Quelle grandeur physique mesure le degré de désordre d'un système thermodynamique ?",
+            "nbJoue": "71",
+            "indice": "Elle augmente toujours au cours d'un processus physique ou chimique",
+            "idC": "11",
+            "nbBonnesReponses": "41",
+            "explication": "L'entropie est une grandeur physique qui mesure le degré de désordre d'un système thermodynamique. Elle est liée au degré de dispersion de l'énergie dans le système et augmente toujours au cours d'un processus physique ou chimique. Selon la deuxième loi de la thermodynamique, l'entropie d'un système fermé ne peut diminuer au cours d'un processus naturel."
+        },
+        {
+            "reponse": "Électronvolt",
+            "question": "Quelle est l'unité de mesure de l'énergie utilisée en physique de particules ?",
+            "nbJoue": "62",
+            "indice": "Elle est liée à la charge électrique",
+            "idC": "12",
+            "nbBonnesReponses": "32",
+            "explication": "L'électronvolt (eV) est l'unité de mesure de l'énergie utilisée en physique de particules. Elle est égale à l'énergie acquise par une charge électrique de 1 coulomb lorsqu'elle est accélérée par une différence de potentiel de 1 volt. L'électronvolt est une unité de petite valeur, souvent utilisée en physique des hautes énergies, comme dans les accélérateurs de particules."
+        },
+        {
+            "reponse": "Accélération",
+            "question": "Quelle grandeur physique mesure le taux de changement de la vitesse d'un corps en mouvement ?",
+            "nbJoue": "49",
+            "indice": "Elle est liée à la force",
+            "idC": "13",
+            "nbBonnesReponses": "29",
+            "explication": "L'accélération est une grandeur physique qui mesure le taux de changement de la vitesse d'un corps en mouvement. Elle est définie comme étant le rapport entre la variation de vitesse et le temps écoulé pendant lequel cette variation a lieu. L'accélération est liée à la force exercée sur un corps et est à l'origine de tous les mouvements accélérés, qu'il s'agisse de la chute libre d'un objet ou du décollage d'un avion."
+        },
+        {
+            "reponse": "Poids",
+            "question": "Quelle grandeur physique mesure la force de gravitation exercée sur un corps ?",
+            "nbJoue": "48",
+            "indice": "Elle est liée à la masse et à l'accélération de la gravité",
+            "idC": "14",
+            "nbBonnesReponses": "40",
+            "explication": "Le poids est une grandeur physique qui mesure la force de gravitation exercée sur un corps. Il est défini comme étant la force exercée par la gravité sur un corps en raison de sa masse. Le poids d'un corps est lié à sa masse et à l'accélération de la gravité à l'endroit où il se trouve. Sur la Terre, par exemple, la gravité est d'environ 9,8 m/s² et le poids d'un corps est égal à sa masse multipliée par cette valeur."
+        },
+        {
+            "reponse": "Chaleur",
+            "question": "Quelle forme d'énergie correspond au transfert de chaleur entre deux corps à des températures différentes ?",
+            "nbJoue": "41",
+            "indice": "Elle peut être mesurée en joules",
+            "idC": "15",
+            "nbBonnesReponses": "36",
+            "explication": "La chaleur est une forme d'énergie qui correspond au transfert de chaleur entre deux corps à des températures différentes. Elle peut être mesurée en joules et est liée à la vibration des atomes et des molécules à l'intérieur d'un corps. La chaleur peut être transférée de différentes manières, comme par conduction, convection et rayonnement."
+        },
+        {
+            "reponse": "Fluide",
+            "question": "Quelle est la substance qui peut prendre la forme de son récipient et qui a une viscosité ?",
+            "nbJoue": "51",
+            "indice": "Elle peut être solide, liquide ou gazeuse",
+            "idC": "16",
+            "nbBonnesReponses": "21",
+            "explication": "Un fluide est une substance qui peut prendre la forme de son récipient et qui a une viscosité. Elle peut être solide, liquide ou gazeuse et se comporte différemment selon son état. Les fluides sont soumis à la pression et à la gravitation et sont à l'origine de nombreux phénomènes physiques, comme la diffusion et la convection."
+        }
+    ],
+    "id": "4",
+    "nom": "Physique"
+}

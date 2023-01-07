@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.SeparatorMenuItem?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1"> <!-- fx:controller="SelectionModeController" -->
+   <children>
+      <MenuBar fx:id="menuBar" prefHeight="29.0" prefWidth="594.0">
+         <menus>
+            <Menu mnemonicParsing="false" text="Menu">
+               <items>
+                  <MenuItem mnemonicParsing="false" onAction="#goToHome" text="Accueil" />
+                  <SeparatorMenuItem mnemonicParsing="false" />
+                  <MenuItem mnemonicParsing="false" onAction="#exitApplication" text="Quitter" />
+               </items>
+            </Menu>
+        <Menu mnemonicParsing="false" text="A propos">
+          <items>
+            <MenuItem mnemonicParsing="false" onAction="#whoWeAre" text="Qui sommes nous ?" />
+            <MenuItem mnemonicParsing="false" onAction="#howToPlay" text="Comment jouer ?" />
+          </items>
+        </Menu>
+         </menus>
+      </MenuBar>
+      <MenuButton fx:id="menuButtonMode" layoutX="231.0" layoutY="110.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="137.0" text="Mode">
+         <items>
+            <MenuItem mnemonicParsing="false" onAction="#InfiniSelected" text="Infini" />
+            <MenuItem mnemonicParsing="false" onAction="#ExamenSelected" text="Examen" />
+            <MenuItem mnemonicParsing="false" onAction="#RushSelected" text="Rush" />
+            <MenuItem mnemonicParsing="false" onAction="#ClassicSelected" text="Classique" />
+         </items>
+      </MenuButton>
+
+      <CheckBox fx:id="CheckBoxIndices" layoutX="378.0" layoutY="218.0" mnemonicParsing="false" text="Indices" />
+      <CheckBox fx:id="CheckBoxExplications" layoutX="378.0" layoutY="257.0" mnemonicParsing="false" text="Explications" />
+      <Label layoutX="201.0" layoutY="218.0" text="Nombre de cartes" />
+      <Label layoutX="201.0" layoutY="257.0" text="Temps (sec)" />
+      <Button layoutX="455.0" layoutY="311.0" mnemonicParsing="false" onAction="#ButtonOkClicked" style="-fx-background-color: #4000ff;" text="C'est parti !" textFill="WHITE" />
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="242.0" layoutY="62.0" prefHeight="17.0" prefWidth="115.0" text="Mode" textAlignment="CENTER" textFill="#4000ff">
+         <font>
+            <Font name="FreeMono Bold" size="25.0" />
+         </font></Label>
+      <Label fx:id="LabelDescriptionMode" alignment="CENTER" layoutX="6.0" layoutY="151.0" prefHeight="19.0" prefWidth="594.0" text="Description du mode">
+         <font>
+            <Font size="15.0" />
+         </font></Label>
+      <ComboBox fx:id="ComboBoxNbCartes" layoutX="118.0" layoutY="214.0" prefHeight="26.0" prefWidth="72.0" />
+      <ComboBox fx:id="ComboBoxTemps" layoutX="118.0" layoutY="252.0" prefHeight="26.0" prefWidth="72.0" />
+      <Button layoutX="14.0" layoutY="360.0" mnemonicParsing="false" onAction="#PreviousPage" style="-fx-background-color: white; -fx-border-color: white;" text="Choisir un autre deck" textFill="#4000ff" /> <!-- revenir à la page d'avant et changer le deck -->
+   </children>
+</AnchorPane>

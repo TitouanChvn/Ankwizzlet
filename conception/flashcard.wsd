@@ -1,0 +1,412 @@
+@startuml
+
+class Flashcard {
+    + String question
+    + String answer
+    + String indice
+    + String explication
+    + int id
+    + int played
+    + int won
+    + String getQuestion()
+    + String getAnswer()
+    + String getIndice()
+    + String getExplication()
+    + int getIndice()
+    + int getPlayed()
+    + int getWon()
+    + void setQuestion(String question)
+    + void setAnswer(String answer)
+    + void setIndice(String indice)
+    + void setExplication(String explication)
+    + void setId(int id)
+    + void setPlayed(int played)
+    + void setWon(int won)
+    + boolean getLearned()
+    + void display()
+    + void notifyObservers
+    + void addObservers 
+}
+
+class DeckOfFlashcards {
+    + String name
+    + String description
+    + int id
+    + ArrayList<Flashcard> flashcards
+    + int topCard
+    + ArrayList<Double> G 
+    + ArrayList<Double> J
+    + void addFlashcard(Flashcard f)
+    + ArrayList<Flashcard> getDeck()
+    + Flashcard getFlashcard(int i)
+    + void setDeck(ArrayList<Flashcard> deck)
+    + FlashCard dealTopFlashcard()
+    + Flashcard dealRandomFlashcard(ArrayList<Flashcard> deckCopy)
+    + void setName(String name)
+    + void setDescription(String description)
+    + void setId(int id)
+    + String getName()
+    + String getDescription()
+    + int getId()
+    + void display()
+    + void removeFlashcard(Flashcard f)
+    + void editFlashcardQuestion(Flashcard f, String question)
+    + void editFlashcardAnswer(Flashcard f, String answer)
+    + void editFlashcardId(Flashcard f, int id)
+    + void addGame()
+    + ArrayList<Double> addX(int k)
+    + Double min(ArrayList<Double> X)
+    + Double max(ArrayList<Double> X)
+    + Double produit(ArrayList<Double> X)
+    + Double variance(ArrayList<Double> X)
+    + ArrayList<Double> normaliserListe(ArrayList<Integer> liste)
+    + int getNiceCard(int k)
+    + ArrayList<Flashcard> nvllelist()
+    + Flashcard dealCorrectFlashcard()
+    + int getNbCardPlayedInDeck()
+    + int getNbCardWonInDeck()
+    + int getNbCardInDeck()
+    + int getNbCardLearnedInDeck
+    + void notifyObservers()
+    + void addObservers()
+}
+
+class MyDecks {
+    + ArrayList<DeckOfFlashcards> decks ;
+    + DeckOfFlashcards ActualDeck ;
+    + Flashcard ActualFlashcard ;
+    + void setDecks(ArrayList<DeckOfFlashcards> decks) 
+    + ArrayList<DeckOfFlashcards> getDecks() 
+    + void  setActualDeck(DeckOfFlashcards deck) 
+    + DeckOfFlashcards getActualDeck() 
+    + void display() 
+    + void addDeck(DeckOfFlashcards deck) 
+    + void removeDeck(DeckOfFlashcards deck) 
+    + List<String> getDecksTitles(MyDecks decks) 
+    + List<String> getDecksDescription(MyDecks decks) 
+    + List<Integer> getDecksId(MyDecks decks) 
+    + DeckOfFlashcards getDeckByName(String name)
+    + DeckOfFlashcards getDeckById(int id) 
+    + int biggerId() 
+    + int getFreeId() 
+    + void editDeckName(DeckOfFlashcards deck, String deckName) 
+    + void editDeckDescription(DeckOfFlashcards deck, String description) 
+    + void editDeckId(DeckOfFlashcards deck, int id) 
+    + void exportDecks(String path) 
+    + MyDecks importDecks(String path) 
+    + int getNbTotalCardsPlayed() 
+    + int getNbTotalCardsWon() 
+    + int getNbTotalCards() 
+    + int getNbTotalCardsLearned() 
+    + int getNbDecks() 
+    + boolean isDeckViewed(DeckOfFlashcards d) 
+    + boolean isDeckLearned(DeckOfFlashcards d) 
+    + int nbDeckViewed() 
+    + int nbDeckTotal()
+    + int nbDeckNotStarted() 
+    + int nbDeckLearned() 
+    + int nbCardTotal() 
+    + boolean isCardViewed(Flashcard card) 
+    + boolean isCardLearned(Flashcard card) 
+    + int nbCardViewed()
+    + int nbCardNotViewed() 
+    + int nbCardLearned() 
+    + int nbCardinDeckViewed(DeckOfFlashcards d) 
+    + int nbCardinDeckLearned(DeckOfFlashcards d) 
+    + int nbCardinDeckNotViewed(DeckOfFlashcards d) 
+    + void notifyObservers() 
+    + void addObserver(MyObserver o) 
+}
+
+class CarteCreationController {
+    MyDecks MyDecks
+    Flashcard carte 
+    - TextField question
+    - TextField reponse
+    - TextArea explication
+    - TextArea indice
+    - Label titre 
+    - Label description 
+    - int idC
+    - Button suivant
+    - Button precedent
+    + void initialize() 
+    + void enregistrer() 
+    + void exitApplication(ActionEvent event) 
+    + void goToHome(ActionEvent event)  
+    + void goToHomeIcon(ActionEvent event) 
+    + void previousPage(ActionEvent event) 
+    + void whoWeAre() 
+    + void howToPlay() 
+    + void save(ActionEvent event) 
+    - void supp(ActionEvent event)
+    - void next(ActionEvent event) 
+    - void previous(ActionEvent event) 
+}
+
+class CarteModificationController {
+    MyDecks MyDecks
+    Flashcard carte
+    - TextField question
+    - TextField reponse
+    - TextArea explication
+    - TextArea indice
+    - Label titre
+    - Label description
+    - int idC
+    - Button suivant
+    - Button precedent
+    + void initialize() 
+    + void whoWeAre() 
+    + void howToPlay() 
+    + void exitApplication(ActionEvent event) 
+    + void goToHome(ActionEvent event)  
+    + void goToHomeIcon(ActionEvent event) 
+    + void previousPage(ActionEvent event) 
+    + void save(ActionEvent event) 
+    - void supp(ActionEvent event)
+    - void next(ActionEvent event)
+    - void previous(ActionEvent event)
+}
+
+class Cartes_apprController {
+    - MyDecks myDecks
+    - boolean CardRectoFace
+    - Stage currenStage
+    - int cartes_jouees
+    - int nb_cartes_tot
+    - int time
+    - int mode
+    - boolean indice
+    - boolean explications
+    - int nb_cartes_reussies
+    - Timer myTimer
+    + ArrayList<Flashcard> deckCopy
+    AnchorPane anchorPane
+    Button ButtonShowAnswer
+    Button ButtonCorrect
+    Button ButtonIncorrect
+    Button ButtonCancel
+    Label LabelExplications
+    Label LabelExplicationsContenu
+    Label LabelAnswerText
+    CheckBox CheckBoxIndice
+    Label LabelIndice
+    Label LabelTitreIndice
+    Label LabelQuestion
+    Label LabelTitreAnswer
+    Button ButtonFinPartieInfinie
+    ProgressBar ProgressBarTimer
+    MenuBar menuBar
+    + void whoWeAre()
+    + void howToPlay()
+    + void initialize()
+    + void startTimer()
+    + void flipCard()
+    + void ButtonShowAnswerClicked(ActionEvent event)
+    + void update()
+    + void finPartie()
+    + void ButtonCorrectAnswerClicked(ActionEvent event)
+    + void FinirPartieInfinie(ActionEvent event)
+    + void ButtonIncorrectAnswerClicked(ActionEvent event)
+    + void ButtonCancelClicked(ActionEvent event)
+    + void IndiceClicked(ActionEvent event)
+    + void exitApplication(ActionEvent event)
+    + void goToHome(ActionEvent event)
+    + void GoToAccueil(ActionEvent event)
+}
+
+class CreationModificationController {
+    TextArea DescriptionDeck
+    TextField NomDeck
+    MyDecks MyDecks
+    MenuItem supp
+    - void initialize()
+    + void previousPage(ActionEvent event) 
+    + void exitApplication(ActionEvent event) 
+    + void goToHome(ActionEvent event) 
+    + void validation(ActionEvent event) 
+    + void Home(ActionEvent event) 
+    - void saveDeck(ActionEvent event)
+    + void importer(ActionEvent event) 
+    + void whoWeAre() 
+    + void howToPlay() 
+    - void parseCard(JSONObject flashcard, DeckOfFlashcards deck)
+}
+
+class DeckModificationController {
+    TextArea DescriptionDeck
+    TextField NomDeck
+    MyDecks MyDecks  
+    TableView table
+    TableView<Flashcard> carte = new TableView<>()
+    Flashcard carteSelected
+    + void initialize() 
+    + void creerCarte(ActionEvent event)  
+    + void previousPage(ActionEvent event)  
+    + void goToHome(ActionEvent event)  
+    + void goToHomeIcon(ActionEvent event)  
+    + void modificationCarte(ActionEvent event)  
+    + void exitApplication(ActionEvent event) 
+    - void saveDeck(ActionEvent event)
+    - void supp(ActionEvent event)
+    + void whoWeAre() 
+    + void howToPlay() 
+}
+
+class FinPartieController {
+    - MyDecks myDecks 
+    - int nb_cartes_tot  
+    - int nb_cartes_reussies = 0 
+    - int time  
+    - int mode  
+    - boolean indice  
+    - boolean explications  
+    Label stat 
+    Button ButtonRejouer 
+    Button ButtonStats 
+    MenuBar menuBar
+    + void initialize() 
+    + void whoWeAre() 
+    + void howToPlay() 
+    + void ButtonRejouerClicked(ActionEvent event)  
+    + void ButtonStatsClicked(ActionEvent event)  
+    + void ButtonChangeDeckClicked(ActionEvent event)  
+    + void exitApplication(ActionEvent event) 
+    + void goToHome(ActionEvent event)  
+    + void GoToAccueil(ActionEvent event)  
+}
+
+class GraphiqueController {
+    - PieChart piechart
+    MyDecks MyDecks
+    - Label nbVustext 
+    - Label nbFinistext 
+    - Label nbVus 
+    - Label nbFinis 
+    - Label nbNonvusText 
+    - Label nbNonvus 
+    + void previousPage(ActionEvent event) throws IOException 
+    + void exitApplication(ActionEvent event) 
+    + void goToHome(ActionEvent event) throws IOException 
+    + void goToHomeIcon(ActionEvent event) throws IOException 
+    - void decksGraphic(ActionEvent event) 
+    - void cardsGraphic(ActionEvent event) 
+    + void whoWeAre() 
+    + void howToPlay() 
+    - void clearGraphic(ActionEvent event) 
+    + void initialize(URL url, ResourceBundle rb) 
+}
+
+class HomeController {
+    - MyDecks MyDecks;
+    + void SelectionApprView(ActionEvent event) 
+    + void StatView(ActionEvent event)  
+    + void creationView(ActionEvent event) 
+    + void exitApplication(ActionEvent event) 
+    + void goToHome(ActionEvent event)  
+    + void whoWeAre() 
+    + void howToPlay() 
+}
+
+class SelectionApprController {
+    - MyDecks myDecks 
+    - DeckOfFlashcards deckselected 
+    - Label description 
+    - ListView<String> listView 
+    - ListView<String> ListDeckName 
+    - ArrayList<Integer> ListDeckId 
+    + void previousPage(ActionEvent event) 
+    + void whoWeAre() 
+    + void howToPlay() 
+    + void initialize(URL location, ResourceBundle resources) 
+    + void TrainingModeView(ActionEvent event) 
+    + void exitApplication(ActionEvent event) 
+    + void goToHome(ActionEvent event) 
+    + void goToHomeIcon(ActionEvent event) 
+}
+
+class SelectionModeController {
+    - MyDecks myDecks
+    - int mode_choisi
+    - int nb_cartes
+    - int temps
+    MenuButton menuButtonMode
+    CheckBox CheckBoxIndices
+    CheckBox CheckBoxExplications
+    ComboBox ComboBoxNbCartes
+    ComboBox ComboBoxTemps
+    Label LabelDescriptionMode
+    + void initialize() 
+    + void InfiniSelected(ActionEvent event) 
+    + void ExamenSelected(ActionEvent event) 
+    + void RushSelected(ActionEvent event) 
+    + void ClassicSelected(ActionEvent event) 
+    + void whoWeAre() 
+    + void howToPlay() 
+    + void ButtonOkClicked(ActionEvent event) 
+    + void exitApplication(ActionEvent event) 
+    + void goToHome(ActionEvent event) 
+    + void PreviousPage(ActionEvent event) 
+}
+
+class SelectionModificationController {
+    - ListView<String> listView 
+    MyDecks MyDecks 
+    - Label description
+    + void initialize() 
+    + void exitApplication(ActionEvent event) 
+    + void previousPage(ActionEvent event)  
+    + void goToHome(ActionEvent event)  
+    + void goToHomeIcon(ActionEvent event)  
+    + void creation(ActionEvent event)  
+    + void whoWeAre() 
+    + void howToPlay() 
+    + void validation(ActionEvent event)  
+    + void exporter(ActionEvent event) 
+    + void saveDeck(String file) 
+}
+
+class StatsController {
+    MyDecks MyDecks
+    - Label nbDeckVus
+    - Label nbDeckFinis
+    - Label nbCardViewed
+    - Label nbCardinDeck
+    - Label nbCardLearned
+    - ComboBox deck_choisi
+    - PieChart piechartDeck
+    + void initialize(URL url, ResourceBundle rb) 
+    + void whoWeAre() 
+    + void howToPlay() 
+    + void deckSelected(ActionEvent event) 
+    + void exitApplication(ActionEvent event) 
+    + void previousPage(ActionEvent event) 
+    + void viewGraphics(ActionEvent event) 
+    + void goToHome(ActionEvent event) 
+    + void goToHomeIcon(ActionEvent event) 
+}
+
+MyDecks "1" -- "*" DeckOfFlashcards
+DeckOfFlashcards "1" -- "*" Flashcard
+StatsController --|> GraphiqueController
+MyDecks "1" -- CarteCreationController 
+MyDecks "1" -- CarteModificationController
+MyDecks "1" -- Cartes_apprController
+MyDecks "1" -- CreationModificationController
+MyDecks "1" -- DeckModificationController
+MyDecks "1" -- FinPartieController
+MyDecks "1" -- GraphiqueController
+MyDecks "1" -- HomeController
+MyDecks "1" -- SelectionApprController
+MyDecks "1" -- SelectionModeController
+MyDecks "1" -- SelectionModificationController
+MyDecks -- "1" DeckOfFlashcards
+MyDecks -- "1" Flashcard
+Flashcard "1" -- CarteCreationController
+Flashcard "1" -- CarteModificationController
+Flashcard "1" -- DeckModificationController
+DeckOfFlashCards "1" -- SelectionApprController
+
+
+@enduml
