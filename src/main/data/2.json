@@ -1,0 +1,151 @@
+{
+  "description": "Quizz sur les capitales des pays du monde",
+  "flashcards": [
+    {
+      "reponse": "Naypyidaw",
+      "question": "Quelle est la capitale de la Birmanie ? ",
+      "nbJoue": "0",
+      "indice": "Ca commence par un N",
+      "idC": "1",
+      "nbBonnesReponses": "0",
+      "explication": ""
+    },
+    {
+      "reponse": "Gaborone",
+      "question": "Quelle est la capitale du Botswana ? ",
+      "nbJoue": "0",
+      "indice": "Ca commence par un G",
+      "idC": "2",
+      "nbBonnesReponses": "0",
+      "explication": ""
+    },
+    {
+      "reponse": "Kinshasa",
+      "question": "Quelle est la capitale de la République Démocratique du Congo ? ",
+      "nbJoue": "0",
+      "indice": "Ca commence par un  K",
+      "idC": "3",
+      "nbBonnesReponses": "0",
+      "explication": ""
+    },
+    {
+      "reponse": "Le Caire",
+      "question": "Quelle est la capitale de l\u0027Egypte\u0027? ",
+      "nbJoue": "0",
+      "indice": "C\u0027est en deux mots : L_ C_ _ _ _",
+      "idC": "4",
+      "nbBonnesReponses": "0",
+      "explication": ""
+    },
+    {
+      "reponse": "Helsinki",
+      "question": "Quelle est la capitale de la Finlande ? ",
+      "nbJoue": "0",
+      "indice": "Ca commence par un H",
+      "idC": "5",
+      "nbBonnesReponses": "0",
+      "explication": ""
+    },
+    {
+      "reponse": "New Delhi",
+      "question": "Quelle est la capitale de l\u0027Inde\u0027 ? ",
+      "nbJoue": "0",
+      "indice": "C\u0027est en deux mots : N_ _ D _ _ _ _",
+      "idC": "6",
+      "nbBonnesReponses": "0",
+      "explication": ""
+    },
+    {
+      "reponse": "Dublin",
+      "question": "Quelle est la capitale de l\u0027Irlande ? ",
+      "nbJoue": "0",
+      "indice": "Ca commence par un D",
+      "idC": "7",
+      "nbBonnesReponses": "0",
+      "explication": ""
+    },
+    {
+      "reponse": "Amman",
+      "question": "Quelle est la capitale de la Jordanie ? ",
+      "nbJoue": "0",
+      "indice": "Ca commence par un A",
+      "idC": "8",
+      "nbBonnesReponses": "0",
+      "explication": ""
+    },
+    {
+      "reponse": "Pristina",
+      "question": "Quelle est la capitale du Kosovo ? ? ",
+      "nbJoue": "0",
+      "indice": "Ca commence par un P",
+      "idC": "9",
+      "nbBonnesReponses": "0",
+      "explication": ""
+    },
+    {
+      "reponse": "Beyrouth",
+      "question": "Quelle est la capitale du Liban? ",
+      "nbJoue": "0",
+      "indice": "Ca commence par un B",
+      "idC": "10",
+      "nbBonnesReponses": "0",
+      "explication": ""
+    },
+    {
+      "reponse": "Abidjan",
+      "question": "Quelle est la capitale de la Côte d\u0027Ivoire ? ",
+      "nbJoue": "0",
+      "indice": "Ca commence par un A",
+      "idC": "11",
+      "nbBonnesReponses": "0",
+      "explication": ""
+    },
+    {
+      "reponse": "Berne",
+      "question": "Quelle est la capitale de la Suisse ? ",
+      "nbJoue": "0",
+      "indice": "Ca commence par un B",
+      "idC": "12",
+      "nbBonnesReponses": "0",
+      "explication": ""
+    },
+    {
+      "reponse": "Kuala Lumpur",
+      "question": "Quelle est la capitale de la Malaisie ? ",
+      "nbJoue": "0",
+      "indice": "C\u0027est en deux mots : K_ _ _ _ L _ _ _ _ _",
+      "idC": "13",
+      "nbBonnesReponses": "0",
+      "explication": ""
+    },
+    {
+      "reponse": "La Havane",
+      "question": "Quelle est la capitale de Cuba ? ",
+      "nbJoue": "0",
+      "indice": "C\u0027est en deux mots : L_ H_ _ _ _ _",
+      "idC": "14",
+      "nbBonnesReponses": "0",
+      "explication": ""
+    },
+    {
+      "reponse": "Oslo",
+      "question": "Quelle est la capitale de la Norvège ? ",
+      "nbJoue": "0",
+      "indice": "Ca commence par un O",
+      "idC": "15",
+      "nbBonnesReponses": "0",
+      "explication": ""
+    },
+    {
+      "reponse": "Vientiane",
+      "question": "Quelle est la capitale du Laos ? ",
+      "nbJoue": "0",
+      "indice": "Ca commence par un V",
+      "idC": "16",
+      "nbBonnesReponses": "0",
+      "explication": ""
+    }
+  ],
+  "id": "2",
+  "nom": "Capitales"
+}

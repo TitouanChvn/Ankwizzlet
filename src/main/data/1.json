@@ -1,0 +1,142 @@
+{
+  "description": "Questions de culture générale sur la géographie dans le monde",
+  "flashcards": [
+    {
+      "reponse": "L\u0027Everest",
+      "question": "Quelle est la plus haute montagne du monde ?",
+      "nbJoue": "0",
+      "indice": "C\u0027est en Asie",
+      "idC": "1",
+      "nbBonnesReponses": "0",
+      "explication": "L\u0027Everest est une montagne de l\u0027Himalaya et la plus haute du monde avec 8 848 mètres d\u0027altitude. Elle est située sur la frontière entre le Népal et la Chine."
+    },
+    {
+      "reponse": "L\u0027Asie",
+      "question": "Quel est le plus grand continent du monde ?",
+      "nbJoue": "0",
+      "indice": "C\u0027est le continent où se trouvent la Chine et l\u0027Inde",
+      "idC": "2",
+      "nbBonnesReponses": "0",
+      "explication": "L\u0027Asie est le plus grand continent du monde en termes de surface. Il couvre environ 44% de la surface terrestre et compte plus de 4,5 milliards d\u0027habitants."
+    },
+    {
+      "reponse": "Le Nil",
+      "question": "Quelle est la plus longue rivière du monde ?",
+      "nbJoue": "0",
+      "indice": "C\u0027est en Afrique",
+      "idC": "3",
+      "nbBonnesReponses": "0",
+      "explication": "Le Nil est une rivière d\u0027Afrique qui s\u0027étend sur environ 6670km. Elle prend sa source dans les montagnes du Burundi et se jette dans la mer Méditerranée."
+    },
+    {
+      "reponse": "La Papouasie-Nouvelle-Guinée",
+      "question": "Quelle est la plus grande île du monde ?",
+      "nbJoue": "0",
+      "indice": "C\u0027est en Asie",
+      "idC": "4",
+      "nbBonnesReponses": "0",
+      "explication": "La Papouasie-Nouvelle-Guinée est l\u0027une des îles les plus grandes et les plus montagneuses du monde. Elle couvre une superficie d\u0027environ 462000km²."
+    },
+    {
+      "reponse": "Le lac Supérieur",
+      "question": "Quel est le plus grand lac d\u0027Amérique du Nord ?",
+      "nbJoue": "0",
+      "indice": "Il est à la frontière entre les Etats-Unis et le Canada",
+      "idC": "5",
+      "nbBonnesReponses": "0",
+      "explication": "Le lac Supérieur est le plus grand lac en superficie d\u0027Amérique du Nord et le troisième plus grand lac du monde. Il s\u0027étend sur une surface de 82500km²."
+    },
+    {
+      "reponse": "Le Vatican",
+      "question": "Quel est le plus petit pays du monde ?",
+      "nbJoue": "0",
+      "indice": "C\u0027es un état enclavé en Italie",
+      "idC": "6",
+      "nbBonnesReponses": "0",
+      "explication": "Le Vatican est le plus petit Etat du monde en termes de superficie et de population. Il s\u0027étend sur moins de 50 hectares et compte environ 800 habitants. Il est enclavé dans la ville de Rome, en Italie."
+    },
+    {
+      "reponse": "La forêt amazonienne",
+      "question": "Quelle est la plus grande forêt du monde ?",
+      "nbJoue": "0",
+      "indice": "C\u0027est en Amérique du Sud",
+      "idC": "7",
+      "nbBonnesReponses": "0",
+      "explication": "La forêt amazonienne est la plus grande forêt tropicale du monde et couvre une superficie de presque 6,7 millions de km²."
+    },
+    {
+      "reponse": "La Sicile",
+      "question": "Quelle est la plus grande île d\u0027Europe ?",
+      "nbJoue": "0",
+      "indice": "C\u0027est en mer Méditerranée",
+      "idC": "8",
+      "nbBonnesReponses": "0",
+      "explication": "La Sicile est la plus grande île d\u0027Europe et se trouve en mer Méditerranée. Elle couvre une superficie de 25000km² est est située au sud de l\u0027Italie."
+    },
+    {
+      "reponse": "Les Philippines",
+      "question": "Quel est le plus grand archipel du monde ?",
+      "nbJoue": "0",
+      "indice": "Les Philippines sont un archipel composé de 7107 îles et se trouvent en Asie du Sud-Est. Elles couvrent une superficie de 300000km².",
+      "idC": "9",
+      "nbBonnesReponses": "0",
+      "explication": ""
+    },
+    {
+      "reponse": "Le Sahara",
+      "question": "Quel est le plus grand désert du monde ?",
+      "nbJoue": "0",
+      "indice": "C\u0027est en Afrique",
+      "idC": "10",
+      "nbBonnesReponses": "0",
+      "explication": "Le Sahara est le plus grand désert du monde et couvre une superficie de 9 000 000km² en Afrique. Il s\u0027étend sur plusieurs pays, notamment l\u0027Algérie, le Tchad, l\u0027Egypte et le Maroc."
+    },
+    {
+      "reponse": "L\u0027Algérie",
+      "question": "Quel est le plus grand pays d\u0027Afrique ?",
+      "nbJoue": "0",
+      "indice": "C\u0027est un pays enclavé",
+      "idC": "11",
+      "nbBonnesReponses": "0",
+      "explication": "L\u0027Algérie est le plus grand pays d\u0027Afrique et le 12ème plus grand pays du monde. Il s\u0027étend sur une superficie de 2 381 741km². Il est enclavé dans le Maghreb."
+    },
+    {
+      "reponse": "Les îles Aland",
+      "question": "Quel est le plus grand archipel d\u0027Europe ?",
+      "nbJoue": "0",
+      "indice": "C\u0027est en mer Baltique",
+      "idC": "12",
+      "nbBonnesReponses": "0",
+      "explication": "Les îles Aland sont un archipel composé de plus de 6500 îles et se trouvent en mer Baltique, entre la Finlande et la Suède. Elles couvrent une superficie de 1557km²."
+    },
+    {
+      "reponse": "Lagos",
+      "question": "Quelle est la plus grande ville d\u0027Afrique ?",
+      "nbJoue": "0",
+      "indice": "C\u0027est au Nigeria",
+      "idC": "13",
+      "nbBonnesReponses": "0",
+      "explication": "Lagos est la plus grande ville d\u0027Afrique en termes de population, avec environ 21 millions d\u0027habitants dans sa région métropolitaine. Elle se trouve au sud-ouest du Nigeria."
+    },
+    {
+      "reponse": "L\u0027Aconcagua",
+      "question": "Quelle est la plus haute montagne d\u0027Amérique du Sud ?",
+      "nbJoue": "0",
+      "indice": "C\u0027est dans les Andes",
+      "idC": "14",
+      "nbBonnesReponses": "0",
+      "explication": "L\u0027Aconcagua est la plus haute montagne d\u0027Amérique du Sud et se trouve dans les Andes. Sa hauteur est de 6962 mètres."
+    },
+    {
+      "reponse": "Le lac Tchad",
+      "question": "Quel est le plus grand lac d\u0027Afrique ?",
+      "nbJoue": "0",
+      "indice": "C\u0027est un lac salé",
+      "idC": "15",
+      "nbBonnesReponses": "0",
+      "explication": "Le lac Tchad est le plus grand lac d\u0027Afrique et se trouve dans la région sahélo-saharienne. Il est salé et couvre une superficie de 23250km²."
+    }
+  ],
+  "id": "1",
+  "nom": "Geographie"
+}
