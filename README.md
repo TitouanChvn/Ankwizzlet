@@ -1,3 +1,8 @@
+## Ankwizzlet
+
+Group School Project for a JavaFX application (French)
+
+
 ## Coding Week 27
 
 Membres du groupe : Océane AVILA - Julia BERNON - Tanguy BOURA - Titouan CHAUVINEAU
