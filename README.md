@@ -25,15 +25,15 @@ Pour récupérer le projet :
 
 ```sh
 # en SSH
-git clone git@gitlab.telecomnancy.univ-lorraine.fr:pcd2k23/codingweek-27.git
+git clone git@github.com:TitouanChvn/Ankwizzlet.git
 # ou en HTTPS
-git clone https://gitlab.telecomnancy.univ-lorraine.fr/pcd2k23/codingweek-27.git
+git clone https://github.com/TitouanChvn/Ankwizzlet.git
 ```
 
 Ouvrir ce répertoire. La commande suivante peut être utilisée :
 
 ```bash
-cd codingweek-27
+cd Ankwizzlet
 code .
 ```
 
